@@ -36,7 +36,7 @@ with st.sidebar:
 
 #load your linear regression model
 try:
-    model = pickle.load(open('model.pkl', 'rb'))
+    model = pickle.load(open('regressor1.pkl', 'rb'))
 except Exception as e:
     st.error(f"Error loading the model: {str(e)}")
 
